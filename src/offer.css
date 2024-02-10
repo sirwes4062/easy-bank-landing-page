@@ -1,0 +1,61 @@
+@import url("https://fonts.google.com/specimen/Public+Sans");
+
+* {
+  font-family: "Public Sans";
+}
+
+.offer {
+  background-color: rgba(0, 0, 0, 0.062);
+  height: 100vh;
+  padding-left: 100px;
+}
+.heading-paragraph h1 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.76);
+}
+.heading-paragraph p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.466); 
+}
+
+.myOfferContainer {
+  display: flex;
+  margin-top: 100px;
+}
+
+.image,
+.offerHeader {
+  margin-bottom: 20px;
+}
+
+.single {
+  margin-right: 30px;
+}
+@media screen and (max-width: 1024px) {
+.offer{
+  padding: 30px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .myOfferContainer{
+    flex-direction: column;
+    overflow: hidden;
+    
+  }
+  .offer{
+    height: 100%;
+  }
+
+  .single{
+    margin-bottom: 50px;
+  }
+  .single p{
+      color: rgba(0, 0, 0, 0.575);
+  }
+  .single h2{
+    color: rgba(0, 0, 0, 0.781);
+  }
+}

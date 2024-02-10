@@ -1,0 +1,27 @@
+.dropdown {
+  display: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .dropdown {
+    position: absolute;
+    z-index: 1000;
+    width: 90%;
+    height: 330px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.801);
+  }
+  .dropdown ul li {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: bold;
+  }
+}

@@ -1,0 +1,95 @@
+footer {
+  padding-top: 50px;
+  height: 30vh;
+  background-color: hsla(233, 26%, 24%, 0.856);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-words {
+  display: flex;
+  color: rgba(255, 255, 255, 0.87);
+}
+.footer-words h4:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.first-column {
+  margin-right: 50px;
+}
+
+.first-column h4 {
+  margin-bottom: 13px;
+}
+.second-column h4 {
+  margin-bottom: 13px;
+}
+
+.request-copyright {
+  margin-right: 100px;
+}
+.request-copyright {
+  color: rgba(255, 255, 255, 0.548);
+}
+.logo-social {
+  margin-left: 70px;
+}
+.footer-logo {
+  margin-bottom: 35px;
+  display: flex;
+}
+
+.footer-icons {
+  display: flex;
+  color: white;
+}
+.social-icons {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.social-icons:hover {
+  color: hsl(136, 65%, 51%);
+  font-size: 21px;
+}
+
+.request {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .footer-words {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .first-column {
+    margin: 0;
+  }
+  .request-copyright {
+    margin: 0;
+  }
+  .request-copyright h4 {
+    margin-bottom: 30px;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    margin-bottom: 30px;
+    margin-right: 45px;
+  }
+
+  .request {
+    width: 170px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}

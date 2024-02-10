@@ -1,0 +1,36 @@
+/* TABLET */
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+}
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    header{
+        padding-top: 30px;
+        padding-bottom: 20px;
+       
+    }
+  .header-request {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    
+    
+  }
+  .hamburger img{
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .logo{
+    margin: 0;
+    width: 120px;
+    height: 40px;
+  }
+}
